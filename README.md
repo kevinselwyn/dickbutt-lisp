@@ -4,16 +4,22 @@ Common Lisp dickbutt FFI example
 
 ## Requirements
 
-Works best on Linux
+Works best on Linux:
 
 ```text
 sudo apt-get install clisp
 ```
 
+Or use [Vagrant](https://www.vagrantup.com/):
+
+```text
+vagrant up && vagrant ssh
+```
+
 ## Usage
 
 ```text
-make && make test
+make test
 ```
 
 ## Output
